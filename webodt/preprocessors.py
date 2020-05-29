@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from importlib import import_module
-from cStringIO import StringIO
+from io import StringIO
 from lxml import etree
 import re
 
