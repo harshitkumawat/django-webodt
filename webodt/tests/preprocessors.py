@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.template import Context
-from cStringIO import StringIO
+from io import StringIO
 from lxml import etree
 import unittest
 import webodt
