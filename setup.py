@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 from distutils.core import setup
-
+from importlib import reload
 import os, sys
 reload(sys).setdefaultencoding("UTF-8")
 
